@@ -1,0 +1,41 @@
+body {background-color:pink;}
+
+header
+ { border: 1px solid red;
+text-align: center;}
+
+
+nav {border: 2px solid yellow;
+padding: 10px 10px 10px 0px;
+margin: 10px 10px 10px 10px;}
+
+.container{background-color: orange;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+section
+{ border : 2px solid green;
+  padding: 10px 10px 20px 10px;
+display: flex;
+flex-direction: column;
+}
+
+
+.foto {border: 1px solid red;
+width: 30%;
+}
+
+h2 {border: 1px solid red;
+
+}
+
+  .sectioninfo {border: 1px solid red;
+  }
+
+aside
+{ border: 2px solid blue; }
+
+
+footer
