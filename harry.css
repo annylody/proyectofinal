@@ -1,41 +1,77 @@
-body {background-color:pink;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+body {background-color:black;}
 
 header
- { border: 1px solid red;
-text-align: center;}
+ { border: 1px solid black;
+text-align: center;
+font-family: 'Oswald';
+background-color:  #fc89ac ;
+color: black;}
 
 
-nav {border: 2px solid yellow;
-padding: 10px 10px 10px 0px;
-margin: 10px 10px 10px 10px;}
+nav {border: 2px solid black;
+padding: 20px 20px 20px 30px;
+margin: 10px 10px 10px 10px;
+background-color: white;
+color: white;}
 
-.container{background-color: orange;
+}
+
+a:visited { color:black;
+}
+a:hover{ background-color: pink;
+font-size: 15px;}
+
+
+
+.container{
   display: flex;
   justify-content:space-around;
 
 }
 
+
 section
-{ border : 2px solid green;
-  padding: 10px 10px 20px 10px;
+{ border : 3px solid white;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
 display: flex;
 flex-direction: column;
+font-family:  sans-serif;
+background-color: #afeeee;
 }
 
 
-.foto {border: 1px solid red;
+.foto {border: 1px solid white;
 width: 30%;
 }
 
-h2 {border: 1px solid red;
+H1{
+  font-family:  sans-serif;
+}
+h2 {border: 2px solid white;
 
 }
 
-  .sectioninfo {border: 1px solid red;
+  .sectioninfo {border: 1px solid  #afeeee;
+    font-size: 110%;
   }
 
 aside
-{ border: 2px solid blue; }
+{ border: 3px solid white;
+  padding: 10px 0px 0px 10px;
+margin: 10px 10px 10px 10px;
+background-color:  #fc89ac;
+font-size: 100%;}
+
+li{ padding: 10px 10px 10px 10px;
+}
+
 
 
 footer
